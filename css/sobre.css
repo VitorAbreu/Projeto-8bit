@@ -1,0 +1,76 @@
+.titulo-principal {
+	font-family: "Optimus","Arial", sans-serif;
+	width: 1298px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid red;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+p {
+	font-family: "Arial", sans-serif;
+	text-align: justify; 
+	margin: 25px 0;
+	color: #FFFFFF;
+}
+
+main a {
+	color: #FFFFFF;
+}
+
+.container {
+	width: 950px;
+	margin: auto;
+	padding: 10px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+.artigo {
+	font-family: "Arial", sans-serif;
+	float: left;
+	background-color: #656565;
+	padding: 30px;
+	margin-left: 240px;
+	margin-right: 240px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-family: "Crimson Text", "Times New Roman", serif;
+	font-size: 120%;
+	line-height: 1.5;
+	border: 3px solid #595959;
+}
+.imagem-noticias {
+ 	width: 400px;
+ 	height: 200px;
+	box-sizing: border-box;
+	border: 10px solid black;
+ }
+.titulo-sobre {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	color: #FFFFFF;
+	font-size: 30px;
+	clear: both;
+}

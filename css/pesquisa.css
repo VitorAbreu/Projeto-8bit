@@ -1,0 +1,149 @@
+.titulo-principal {
+	font-family:  "Optimus", "Arial", sans-serif;
+	width: 1299px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid red;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.invisivel{
+	display: none;
+
+}
+
+.filtro{
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin-left: 30%;
+	border-color: black;
+}
+.filtro>div{
+	background-color: #404040;
+	padding: 10px;
+	width: 450px;
+	margin:50px;
+	margin-right: 100px;
+	border:10px solid #505050;
+}
+
+.subtitulo-principal {
+	width: 100%;
+	text-align: center;
+	color: white;		
+	font-size: 40px
+}
+
+.pesquisa{
+	width: 385px;
+	height: 0px;
+	margin: 30px auto;
+
+}
+
+#texto{
+	width: 300px;
+}
+
+.btn{
+	width: 30px;
+	height: 30px;
+	
+}
+
+#filtrar-jogo{
+
+	margin: 0px;
+	float: center;
+	
+	
+}
+
+.venda-jogo{
+	
+	width: 200px;
+	left: 200px;
+	text-align: center;
+	
+	
+}
+.imgjogo{
+	position: relative;
+	left: 100px;
+	float: left;
+	
+
+}
+
+/* css formatação de jogos*/.caixinha{
+	border: 8px solid #505050;
+	background-color: white;
+	margin: 20px;
+	margin-bottom: 30px;
+	padding: 3px;
+	float: left;
+	position: relative;
+	left: 50px;
+}
+
+.caixinha figcaption{
+	background-color: #363636;
+}
+
+.nome-jogo{
+	color: white;
+	padding: 10px;
+	text-align: center;
+  	text-transform: uppercase;
+}
+
+.thumb{
+	max-height: 500px;
+	max-width: 250px;
+}
+
+.container{
+	padding-bottom: 500px;
+}
+
+
+.subtitulo-principal {
+	width: 100%;
+	text-align: center;
+	color: white;		
+	font-size: 40px
+}
+
+.pesquisa{
+	width: 385px;
+	height: 0px;
+	margin: 30px auto;
+}
+
+label strong {
+	font-family: "Optimus", "Arial";
+	text-align: center;
+	color: white;
+	margin: 10px;
+}
+
+#texto{
+	width: 300px;
+}
+
+.btn{
+	width: 30px;
+	height: 30px;
+	
+}
+
+#filtrar-jogo{
+
+	margin: 0px;
+	width: 300px;
+	
+	
+}

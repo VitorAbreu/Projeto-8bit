@@ -1,0 +1,101 @@
+.titulo-principal {
+	font-family: "optimus", sans-serif;
+	width: 1298px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid red;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+
+.campo {
+	width: 100%;
+	border: 1px solid #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.grupo{
+	width: 32%;
+
+	padding: 10px 0px;
+}
+
+
+#adicionar-player {
+	text-align: center;
+	border: 3px solid #656565;
+	font-size: 1.2em;
+	font-family: "optimus";
+	cursor: pointer;
+	padding:5px;
+	color: #FFFFFF;
+	background-color:red;
+	border-color: #545454;
+	width: 25%;
+	position: absolute;
+	top: 953px;
+	right: 340px;
+	text-decoration: none;
+    
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.label-cadastro {
+	font-family: "Arial";
+	color: #FFFFFF;
+	
+}
+
+.form-cadastra {
+	font-family: "Arial", sans-serif;
+	float: right;
+	height: 500px;
+	background-color: #656565;
+	padding: 60px;
+
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 50px;
+	margin-bottom: 180px;
+	font-size: 120%;
+	line-height: 1.5;
+	border: 3px solid #505050;
+
+}
+
+.grupo {
+	font-family: "Arial", sans-serif;
+	background-color: #696969;
+	padding: 30px;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 100%;
+	line-height: 1.5;
+	border: 3px solid #505050;
+}
+
+.grupo-endereco {
+	float: right;
+	margin-right: 10px;
+	position: absolute;
+	top: 468px;
+	right: 330px;
+	width: 300px;
+}
+

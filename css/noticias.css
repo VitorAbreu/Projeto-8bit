@@ -1,0 +1,168 @@
+.titulo-principal {
+	font-family: "optimus", sans-serif;
+	width: 1299px;
+	text-align: center;
+	background-color: #000000;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid red;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Arial", sans-serif;
+	text-align: justify; 
+	margin: 25px 0;
+	color: #FFFFFF;
+}
+
+main a {
+	color: #FFFFFF;
+}
+
+.container {
+	width: 950px;
+	margin: auto;
+	padding: 10px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.titulo-noticia {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	color: #FFFFFF;
+	font-size: 30px;
+	clear: both;
+}
+
+.subtitulo-texto {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	color: #FFFFFF;
+	font-size: 20px;
+	clear: both;
+}
+
+
+nav a {
+	text-transform: lowercase;
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+#nome {
+	float: left;
+}
+.artigo {
+	font-family: "Arial", sans-serif;
+	float: left;
+	background-color: #656565;
+	padding: 30px;
+	margin-left: 0px;
+	margin-right: 300px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-family: "Crimson Text", "Times New Roman", serif;
+	font-size: 120%;
+	line-height: 1.5;
+	border: 3px solid #595959;
+}
+
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	background-color: #424242;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+time {
+	color: #FFFFFF;
+}
+
+.imagem-noticias {
+ 	width: 400px;
+ 	height: 200px;
+	box-sizing: border-box;
+	border: 10px solid black;
+ }
+
+.imagem-noticias-noticia {
+	width: 900px;
+	height: 500px;
+	box-sizing: border-box;
+	border: 10px solid black;
+}
+
+.imagem-nt {
+	width: 700px;
+	height: 400px;
+
+}
+
+.propaganda {
+	float: right;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	width: 15%;
+	position: absolute;
+	top: 390px;
+	right: 240px;
+}
+
+.banner_lateral {
+	width: 300px;
+	height: 600px;
+	border: 70px solid #424242;
+
+	background-color: #656565;
+}
+
+.tags {
+	font-family: "Arial", sans-serif;
+	color: #FFFFFF;
+	
+}
+
+.linha {
+	width: 100%; 
+	height:3px;  
+	color:#000; 
+	background-color:#000; 
+	margin-top: 70px;
+	margin-bottom: 0px;
+}
+cite {
+	font-style: italic;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+

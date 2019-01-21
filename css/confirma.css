@@ -1,0 +1,104 @@
+.titulo-principal {
+	font-family:  "Optimus", "Arial", sans-serif;
+	width: 100%;
+	text-align: center;
+	background-color: #000000;
+	color: #FFF;
+	padding: 25px 0px;
+	border-bottom: 10px solid red;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.quadroConfirmacao{
+	background-color: #656565;
+	margin-top: 10px;
+	box-sizing: border-box;
+	border-top: 3px solid #595959;
+	border-bottom: 3px solid #595959;	
+}
+
+.imagemPrincipal{
+	border-right: 1px solid white;
+	margin-top: 40px;
+	margin-left: 180px;
+}
+
+.informacoesDoProduto{
+	color: white;
+	margin-bottom: 20px;
+	font-family: "arial";
+}
+
+.efetivaCompra{
+	position: relative;
+	left: 820px;
+	text-align: center;
+	border: 3px solid #656565;
+	font-size: 1.2em;
+	cursor: pointer;
+	padding:5px;
+	color: #FFFFFF;
+	background-color:red;
+	border-color: #545454;
+	width: 25%;
+    margin: 10px 0px;
+    font-family: "optimus";	
+}
+
+.sifrao{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 500px;
+	top: 680px;
+}
+
+.preco{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 550px;
+	top: 680px;
+}
+
+.textoDescricao{
+	color: white;
+	margin-bottom: 20px;
+	font-family: "arial";
+	font-size: 35px;
+	position: absolute;
+	left: 500px;
+	top: 450px;
+}
+
+.mensagemSaldo{
+	color: white;
+	margin-bottom: 20px;
+	font-family: "arial";
+	position: absolute;
+	left: 800px;
+	top: 680px;
+	font-size: 30px;
+}
+
+.textoInformacao{
+	color: white;
+	margin-left: 0px;
+	padding-bottom: 50px;
+}
+
+.informacoesDoProduto{
+	margin-top: 30px;
+	position: absolute;
+	left: 10px;
+	font-size: 32px;
+}
+.subInformacaoDoProduto{
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 135px;
+	text-align: justify;
+	font-family: "arial";
+	font-size: 20px;
+}

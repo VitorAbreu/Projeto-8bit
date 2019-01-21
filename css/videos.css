@@ -1,0 +1,124 @@
+iframe{
+	position: relative;
+	left: 90px;
+	top: 10px;
+}
+
+.lista{
+	margin-top: 10px;
+	float: right;
+	background-color: black; 
+	padding: 10px;
+	margin-bottom: 35px;
+	width: 42%;
+}
+
+.lista h1{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: wide-awake;
+}
+
+.titulo-video{
+	float: right;
+	clear: right;
+	color: white;
+	text-align: left;
+	font-family: "arial";
+}
+
+.img-video{
+	width: 200px;
+	height: 100px;
+	padding-bottom: 3px;
+}
+
+main{
+	float: left;
+}
+
+aside{
+	padding-bottom: 500px;
+}
+
+.campo-comentario{
+	margin-left: 90px;
+	margin-top: 10px;
+	width: 80%;
+	padding: 5px;
+}
+
+.campo{
+	margin-top: 10px;
+	background-color: black;
+	width: 115%;
+	padding-bottom: 60px;
+}
+
+.campo h1{
+	color: white;
+	margin-left: 90px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-family: "Arial";
+}
+
+.campo p{
+	color: grey;
+	margin-left: 90px;
+	font-family: "Arial";
+	margin-bottom: 5px;
+}
+
+.foto-perfil{
+	width: 50px;
+	height: 50px;
+	margin-left: 100px;
+}
+
+.nome-perfil{
+	position: relative;
+	top: 5px;
+	left: -490px;
+	float: right;
+}
+
+.descricao{
+	max-width: 500px;
+}
+
+.like{
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	left: 610px;
+	top: 645px;
+}
+
+.dislike{
+	transform: rotate(180deg);
+	transform-origin: left top 950;
+	left: 670px;
+	border-top: solid 1px #424242;
+}
+
+.neutro{
+	border-bottom: solid 1px #424242;
+}
+
+.enviar{
+	padding: 5px;
+	background-color: #b71c1c;
+	border-color: #d50000;
+	color: white;
+	font-family: "arial";
+	position: relative;
+	left: 650px;
+	top: 10px;
+}
+
+.opiniao{
+	border-color: white;
+}

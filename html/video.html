@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="desccription" content="Projeto em desenvolvimento estágio BRQ">
+	<meta name="author" content="Vitor Yan, Edclécio José, Guilherme de Paula">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/principal.css">
+	<link rel="stylesheet" type="text/css" href="../css/videos.css">
+	<link rel="icon" href="../img/icone-play.png">
+	<title>8bit - de jogadores para jogadores</title>
+</head>
+<body onload="carregarVideoDesejado();">
+	<header>
+		<nav>
+			<div class="logo">
+				<img class="banner" src="../img/banner.jpg" alt="8-bit logo">
+				<ul class="item-redes">
+					<li>
+						<a href="https://facebook.com"><img class="icone" src="../img/facebook.png" alt="facebook">
+							<!-- Facebook -->
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com"><img class="icone" src="../img/icone-twitter.png" alt="Twitter">
+							<!-- Twitter -->
+						</a>
+					</li>
+					<li>
+						<a href="#"><img class="icone" src="../img/icone-email.png" alt="Contato">
+							<!-- Contato -->
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul class="menu-principal">
+					<li class="item-menu">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="item-menu">
+						<a href="noticias-index.html">Notícias</a>
+					</li>
+					<li class="item-menu">
+						<a href="vendas.html">Loja</a>
+					</li>
+					<li class="item-menu">
+						<a href="cadastro.html">Cadastro</a>
+					</li>
+					<li class="item-menu">
+						<a href="sobre.html">Sobre</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="campo">
+			<iframe id="videoPrincipal" width="650" height="385" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		
+			<h1 id="tituloPrincipal" class="titulo-atual">Titulo</h1>
+			<p>333 visualizações</p>
+			<div>
+				<img id="like" class="like neutro" src="../img/polegar.png">
+				<img id="dislike" class="like dislike" src="../img/polegar.png">
+			</div>
+			<hr>
+
+			<div class="perfil">
+				<img class="foto-perfil" src="../img/icone-usuario.png" alt="icone do perfil">
+
+				<h1 class="nome-perfil">Usuário123</h1>
+
+				<p class="descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			</div>
+			<hr>
+				
+			<input type="text" name="comentario" placeholder="Envie um feedback ao produtor de conteúdo" class="campo-comentario">	
+
+			<button class="enviar">Enviar</button>
+			</table>
+		</div>
+	</main>
+	<aside>
+		<ul id="listaLateral" class="lista">
+			<h1>Veja mais</h1>
+			<!-- <li id="templateVideoLateral" style="display: none;">
+				<a class="video-lateral" href="#">
+					<img id="imagemTemplateVideoLateral" class="img-video">
+					<p id="tituloTemplateVideoLateral" class="titulo-video"></p>
+				</a>
+			</li> -->
+		</ul>
+	</aside>
+
+	<script type="text/javascript" src="../js/videos.js"></script>
+
+	<footer class="rodape-pagina">
+		&copy; Estagiários BRQ Edclecio, Guilherme e Vitor 2019
+	</footer>
+</body>
+</html>
